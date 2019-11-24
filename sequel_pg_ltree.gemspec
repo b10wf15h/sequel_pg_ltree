@@ -1,7 +1,7 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "sequel_pg_ltree/version"
+require 'sequel/plugins/pg_ltree/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "sequel_pg_ltree"
