@@ -22,9 +22,8 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
 
-  spec.add_dependency 'sequel', '>= 5.22.0'
   spec.add_dependency 'pg', '>= 0.17.0', '< 2'
-
+  spec.add_dependency 'sequel', '>= 5.26.0'
 
   spec.add_development_dependency 'bundler'
   spec.add_development_dependency 'rake'
