@@ -1,4 +1,3 @@
-require "sequel_pg_ltree/version"
 require 'sequel'
 
 # Sequel: The Database Toolkit for Ruby

@@ -19,6 +19,8 @@ Gem::Specification.new do |spec|
   spec.files         = Dir.chdir(File.expand_path('..', __FILE__)) do
     `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   end
+  spec.require_paths = ['lib']
+
 
   spec.add_dependency 'sequel', '>= 5.22.0'
   spec.add_dependency 'pg', '>= 0.17.0', '< 2'
