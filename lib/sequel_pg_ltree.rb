@@ -1,1 +1,1 @@
-require_relative 'sequel/plugins/pg_ltree'
+require 'sequel/plugins/pg_ltree/pg_ltree'
