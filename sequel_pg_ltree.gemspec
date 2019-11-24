@@ -5,7 +5,7 @@ require 'sequel/plugins/pg_ltree/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "sequel_pg_ltree"
-  spec.version       = SequelPgLtree::VERSION
+  spec.version       = Sequel::PgLtree::VERSION
   spec.authors       = ["Igor Milisav"]
   spec.email         = ["igor.milisav@gmail.com"]
 
